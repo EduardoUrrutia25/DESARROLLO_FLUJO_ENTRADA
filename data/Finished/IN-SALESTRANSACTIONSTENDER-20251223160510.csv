@@ -1,0 +1,2 @@
+Organization;StoreNo;LineId;ReceiptId;TenderId;PaymentDate;CardName;CardNumber;CardExpDate;CardAuthorization;CardZipCode;CardSequenceNumber;EFT;CheckNumber;GiftCertNumber;TakeAmount;GiveAmount;Notes;DebitSale;PaymentDay;CurrencyId;ExchangeRate;TakeBase;TakeExchange
+TAMBO;1;1;550e8400-e29b-41d4-a716-446655440000;1020;2025-02-01 02:12:00;;;;;;;1;;;18.5;18.5;;1;;1;;;

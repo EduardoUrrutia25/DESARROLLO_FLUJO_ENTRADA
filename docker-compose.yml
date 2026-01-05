@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  apex-oracle-api:
+    build: .
+    container_name: base_flujo_entrada
+    ports:
+      - "5300:5300"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    env_file:
+      - .env
+    restart: always
+    environment:
+      - TZ=America/Lima
+    networks:
+      - flujo-entrada-network
+
+networks:
+  flujo-entrada-network:
+    driver: bridge

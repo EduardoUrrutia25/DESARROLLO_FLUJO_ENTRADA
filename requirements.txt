@@ -1,0 +1,11 @@
+Flask==2.2.5
+hypercorn>=0.16
+
+# Azure Blob Storage
+azure-storage-blob>=12.19
+
+# SQL Server
+pyodbc==5.1.0
+
+# Environment variables
+python-dotenv==1.2.1
